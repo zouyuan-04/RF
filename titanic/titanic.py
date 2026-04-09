@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import cross_val_score
 
-# 读取数据
 df_train = pd.read_csv(r'c:\users\86182\Desktop\titanic\train.csv')
 df_test = pd.read_csv(r'c:\users\86182\Desktop\titanic\test.csv')
 
